@@ -2,6 +2,7 @@
 *.pyc
 *.pyo
 *.egg-info*
+.database
 
 # Ignore PyCharm project settings
 .idea*
@@ -15,3 +16,4 @@ bin/*
 develop-eggs/*
 parts/*
 eggs/*
+downloads/*
