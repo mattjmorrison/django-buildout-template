@@ -15,7 +15,6 @@ DATABASES = {
     }
 }
 
-
 USE_I18N = False
 USE_L10N = True
 MEDIA_ROOT = path.join(PROJECT_DIR, "media")
