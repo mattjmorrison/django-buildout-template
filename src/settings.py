@@ -53,6 +53,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.admin',
     'debug_toolbar',
+    'microblog',
 )
 
 DEBUG_TOOLBAR_CONFIG = {
@@ -64,4 +65,4 @@ SOUTH_TESTS_MIGRATE = False
 DEFAULT_FILE_STORAGE = "mongoengine.django.storage.GridFSStorage"
 
 import mongoengine
-mongoengine.connect("mongo_storage")
+mongoengine.connect("test")
