@@ -11,5 +11,7 @@ setup(
     install_requires = (
         'south',
         'django-debug-toolbar',
+        'pymongo',
+        'mongoengine'
     ),
 )
