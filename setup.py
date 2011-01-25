@@ -9,6 +9,8 @@ setup(
 
     package_dir={'': 'src'},
     install_requires = (
+        'mock',
+        'lettuce',
         'south',
         'django-debug-toolbar',
     ),

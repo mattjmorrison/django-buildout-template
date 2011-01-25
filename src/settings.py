@@ -44,6 +44,10 @@ TEMPLATE_DIRS = (
     path.join(PROJECT_DIR, 'templates'),
 )
 
+LETTUCE_AVOID_APPS = (
+    'debug_toolbar',
+    'south',
+)
 INSTALLED_APPS = (
     'south',
     'django.contrib.auth',
@@ -53,6 +57,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.admin',
     'debug_toolbar',
+    'lettuce.django',
+    'blog',
 )
 
 DEBUG_TOOLBAR_CONFIG = {
