@@ -13,4 +13,4 @@ def access_url(step, url):
 
 @step(r'I see the header "(.*)"')
 def see_header(step, text):
-    assert '<h4>%s</h4>' % text in world.dom
+    assert '<h1>%s</h1>' % text in world.dom
